@@ -1,0 +1,1578 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Anil Bridal Mehendi Artist | Traditional • Bridal • Destination
+    </title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800&family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <style>
+      :root {
+        --maroon-dark: #2b0b10;
+        --maroon-deep: #3c0f16;
+        --maroon-light: #521620;
+        --gold-primary: #d4a359;
+        --gold-light: #f5dfa8;
+        --gold-dark: #a87930;
+        --cream-bg: #fdf8f2;
+        --cream-card: #f8f1e7;
+        --text-dark: #2e1a1e;
+        --text-light: #f9f5f0;
+        --text-muted: #8c7e7b;
+        --transition: all 0.35s ease;
+        --font-serif: "Playfair Display", serif;
+        --font-royal: "Cinzel", serif;
+        --font-script: "Great Vibes", cursive;
+        --font-sans: "Poppins", sans-serif;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+      }
+
+      body {
+        font-family: var(--font-sans);
+        background-color: var(--maroon-dark);
+        color: var(--text-light);
+        overflow-x: hidden;
+        line-height: 1.6;
+      }
+
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      /* Top Emergency / Direct Call Bar */
+      .top-banner {
+        background: linear-gradient(90deg, #1f070b, #431019, #1f070b);
+        border-bottom: 1px solid rgba(212, 163, 89, 0.25);
+        font-size: 0.85rem;
+        padding: 7px 5%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: var(--gold-light);
+      }
+      .top-banner-phones a {
+        margin-left: 15px;
+        color: var(--gold-light);
+        transition: var(--transition);
+        font-weight: 500;
+      }
+      .top-banner-phones a:hover {
+        color: #fff;
+      }
+
+      /* Header & Navigation */
+      header {
+        position: sticky;
+        top: 0;
+        z-index: 999;
+        background: rgba(43, 11, 16, 0.95);
+        backdrop-filter: blur(10px);
+        border-bottom: 1px solid rgba(212, 163, 89, 0.2);
+        transition: var(--transition);
+      }
+      .nav-container {
+        max-width: 1300px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 24px;
+      }
+      .logo-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .logo-main {
+        font-family: var(--font-script);
+        font-size: 2.3rem;
+        color: var(--gold-light);
+        line-height: 1;
+        text-shadow: 0 0 10px rgba(212, 163, 89, 0.3);
+      }
+      .logo-sub {
+        font-family: var(--font-royal);
+        font-size: 0.65rem;
+        letter-spacing: 3px;
+        color: #dfcdb5;
+        text-transform: uppercase;
+        margin-top: 2px;
+      }
+      nav ul {
+        display: flex;
+        list-style: none;
+        gap: 24px;
+        align-items: center;
+      }
+      nav ul li a {
+        font-size: 0.9rem;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        color: #e8d5c4;
+        transition: var(--transition);
+        position: relative;
+        padding-bottom: 4px;
+      }
+      nav ul li a::after {
+        content: "";
+        position: absolute;
+        width: 0%;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background: var(--gold-primary);
+        transition: var(--transition);
+      }
+      nav ul li a:hover,
+      nav ul li a.active {
+        color: var(--gold-light);
+      }
+      nav ul li a:hover::after,
+      nav ul li a.active::after {
+        width: 100%;
+      }
+
+      .btn-book-nav {
+        background: linear-gradient(135deg, #e3b36a, #c08736);
+        color: #2b0b10;
+        font-weight: 600;
+        font-size: 0.88rem;
+        padding: 9px 22px;
+        border-radius: 30px;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        box-shadow: 0 4px 15px rgba(212, 163, 89, 0.35);
+        transition: var(--transition);
+      }
+      .btn-book-nav:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(212, 163, 89, 0.5);
+        color: #1a0408;
+      }
+
+      .mobile-toggle {
+        display: none;
+        font-size: 1.5rem;
+        color: var(--gold-light);
+        cursor: pointer;
+      }
+
+      /* Hero Section */
+      .hero {
+        position: relative;
+        background:
+          radial-gradient(
+            circle at 75% 40%,
+            rgba(82, 22, 32, 0.65) 0%,
+            rgba(43, 11, 16, 0.98) 70%
+          ),
+          url("photo/im.png") center right/cover no-repeat;
+        min-height: 85vh;
+        display: flex;
+        align-items: center;
+        padding: 60px 5%;
+        border-bottom: 2px solid rgba(212, 163, 89, 0.3);
+      }
+      .hero-content {
+        max-width: 650px;
+        z-index: 2;
+      }
+      .hero-tagline {
+        font-family: var(--font-royal);
+        font-size: 0.85rem;
+        letter-spacing: 4px;
+        color: var(--gold-light);
+        margin-bottom: 14px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+      .hero-tagline::before,
+      .hero-tagline::after {
+        content: "❖";
+        color: var(--gold-primary);
+        font-size: 0.7rem;
+      }
+      .hero-title {
+        font-family: var(--font-serif);
+        font-size: 3.5rem;
+        line-height: 1.15;
+        color: #fff;
+        margin-bottom: 6px;
+        text-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+      }
+      .hero-title-script {
+        display: block;
+        font-family: var(--font-script);
+        font-size: 4.8rem;
+        color: var(--gold-light);
+        line-height: 1.1;
+        font-weight: 400;
+        margin-top: -5px;
+      }
+      .hero-desc {
+        font-size: 1rem;
+        color: #e6d3c2;
+        margin: 22px 0 32px;
+        font-weight: 300;
+        max-width: 530px;
+        line-height: 1.7;
+      }
+      .hero-actions {
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+      }
+      .btn-gold {
+        background: linear-gradient(135deg, #dfad62, #b87d2d);
+        color: #2b0b10;
+        font-weight: 600;
+        padding: 13px 30px;
+        border-radius: 40px;
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        transition: var(--transition);
+        box-shadow: 0 5px 20px rgba(212, 163, 89, 0.3);
+      }
+      .btn-gold:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 8px 25px rgba(212, 163, 89, 0.45);
+      }
+      .btn-outline {
+        border: 1px solid var(--gold-primary);
+        color: var(--gold-light);
+        font-weight: 500;
+        padding: 13px 30px;
+        border-radius: 40px;
+        background: rgba(43, 11, 16, 0.4);
+        backdrop-filter: blur(5px);
+        transition: var(--transition);
+      }
+      .btn-outline:hover {
+        background: rgba(212, 163, 89, 0.15);
+        border-color: #fff;
+        color: #fff;
+      }
+
+      /* Section Header Decorator */
+      .section-header {
+        text-align: center;
+        margin-bottom: 45px;
+      }
+      .section-subtitle {
+        font-family: var(--font-script);
+        font-size: 2.8rem;
+        color: var(--gold-primary);
+        line-height: 1;
+        margin-bottom: 4px;
+      }
+      .section-title {
+        font-family: var(--font-serif);
+        font-size: 2rem;
+        color: inherit;
+        letter-spacing: 1px;
+        font-weight: 600;
+      }
+      .section-tagline {
+        font-size: 0.95rem;
+        color: var(--text-muted);
+        margin-top: 6px;
+        letter-spacing: 0.5px;
+      }
+      .divider-motif {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        margin-top: 10px;
+      }
+      .divider-motif span {
+        width: 40px;
+        height: 1px;
+        background: var(--gold-primary);
+        opacity: 0.6;
+      }
+
+      /* Services Section (Beige Background) */
+      .services-section {
+        background-color: var(--cream-bg);
+        color: var(--text-dark);
+        padding: 85px 5%;
+        position: relative;
+      }
+      .services-grid {
+        max-width: 1280px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 22px;
+      }
+      .service-card {
+        background: #ffffff;
+        border-radius: 80px 80px 16px 16px;
+        overflow: hidden;
+        box-shadow: 0 10px 25px rgba(82, 22, 32, 0.08);
+        border: 1px solid rgba(212, 163, 89, 0.25);
+        text-align: center;
+        transition: var(--transition);
+        display: flex;
+        flex-direction: column;
+      }
+      .service-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 15px 35px rgba(82, 22, 32, 0.15);
+        border-color: var(--gold-primary);
+      }
+      .service-img-wrap {
+        width: 100%;
+        height: 230px;
+        overflow: hidden;
+        position: relative;
+        border-bottom: 3px solid var(--gold-primary);
+      }
+      .service-img-wrap img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.5s ease;
+      }
+      .service-card:hover .service-img-wrap img {
+        transform: scale(1.08);
+      }
+      .service-body {
+        padding: 20px 14px 24px;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .service-name {
+        font-family: var(--font-serif);
+        font-size: 1.15rem;
+        font-weight: 700;
+        color: var(--maroon-dark);
+        margin-bottom: 6px;
+      }
+      .service-desc {
+        font-size: 0.83rem;
+        color: #6c5a5a;
+        line-height: 1.4;
+      }
+
+      /* Why Choose Us Section */
+      .why-us-section {
+        background: linear-gradient(135deg, #2b0b10 0%, #3e0e16 100%);
+        padding: 75px 5%;
+        border-top: 1px solid rgba(212, 163, 89, 0.2);
+        border-bottom: 1px solid rgba(212, 163, 89, 0.2);
+      }
+      .why-us-container {
+        max-width: 1280px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 50px;
+        align-items: center;
+      }
+      .why-us-left h2 {
+        font-family: var(--font-serif);
+        font-size: 2.2rem;
+        color: #fff;
+        line-height: 1.3;
+        margin-bottom: 15px;
+      }
+      .why-us-left h2 span {
+        color: var(--gold-light);
+      }
+      .why-us-left p {
+        color: #d8c3b7;
+        font-size: 0.95rem;
+        margin-bottom: 25px;
+      }
+      .why-us-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        border-left: 1px solid rgba(212, 163, 89, 0.25);
+        padding-left: 30px;
+      }
+      .why-feature {
+        text-align: center;
+        position: relative;
+      }
+      .why-feature-icon {
+        width: 60px;
+        height: 60px;
+        margin: 0 auto 15px;
+        border: 1px solid var(--gold-primary);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--gold-light);
+        font-size: 1.3rem;
+        background: rgba(212, 163, 89, 0.08);
+        transition: var(--transition);
+      }
+      .why-feature:hover .why-feature-icon {
+        background: var(--gold-primary);
+        color: var(--maroon-dark);
+        transform: rotateY(180deg);
+      }
+      .why-feature h4 {
+        font-family: var(--font-serif);
+        font-size: 0.98rem;
+        color: #ffffff;
+        margin-bottom: 5px;
+      }
+      .why-feature p {
+        font-size: 0.8rem;
+        color: #bfab9f;
+        line-height: 1.4;
+      }
+
+      /* Destination Mehendi Section */
+      .destination-section {
+        background-color: #faf3eb;
+        color: var(--text-dark);
+        padding: 90px 5%;
+        position: relative;
+      }
+      .destination-container {
+        max-width: 1250px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1.2fr;
+        gap: 50px;
+        align-items: center;
+      }
+      .dest-title-script {
+        font-family: var(--font-script);
+        font-size: 3.2rem;
+        color: var(--maroon-deep);
+        line-height: 1;
+      }
+      .dest-title {
+        font-family: var(--font-serif);
+        font-size: 2.2rem;
+        color: var(--maroon-dark);
+        margin-bottom: 18px;
+      }
+      .dest-desc {
+        color: #554446;
+        font-size: 0.96rem;
+        line-height: 1.7;
+        margin-bottom: 30px;
+      }
+      .dest-features-list {
+        list-style: none;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 14px 20px;
+        margin-bottom: 30px;
+      }
+      .dest-features-list li {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        font-size: 0.92rem;
+        color: #3b2024;
+        font-weight: 500;
+      }
+      .dest-features-list li i {
+        color: var(--maroon-light);
+        font-size: 1rem;
+      }
+
+      /* Destination Collage / Polaroid Visuals */
+      .dest-visual-wrap {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .dest-main-img {
+        width: 85%;
+        height: 380px;
+        object-fit: cover;
+        border-radius: 12px;
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+        border: 6px solid #fff;
+      }
+      .dest-sub-img {
+        position: absolute;
+        width: 44%;
+        height: 220px;
+        object-fit: cover;
+        border: 6px solid #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+        bottom: -30px;
+        left: 10px;
+        transform: rotate(-5deg);
+        transition: var(--transition);
+      }
+      .dest-sub-img:hover {
+        transform: rotate(0deg) scale(1.05);
+        z-index: 5;
+      }
+      .dest-note {
+        position: absolute;
+        bottom: 15px;
+        right: 35px;
+        font-family: var(--font-script);
+        font-size: 2rem;
+        color: #2b0b10;
+        text-shadow: 0 2px 5px rgba(255, 255, 255, 0.8);
+        transform: rotate(-6deg);
+      }
+
+      /* Gallery Section */
+      .gallery-section {
+        background-color: var(--maroon-dark);
+        padding: 90px 5%;
+        text-align: center;
+        position: relative;
+      }
+      .gallery-grid {
+        max-width: 1280px;
+        margin: 30px auto;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 15px;
+      }
+      .gallery-item {
+        position: relative;
+        height: 320px;
+        border-radius: 10px;
+        overflow: hidden;
+        border: 1px solid rgba(212, 163, 89, 0.3);
+        cursor: pointer;
+      }
+      .gallery-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+      }
+      .gallery-overlay {
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+          to top,
+          rgba(43, 11, 16, 0.85) 0%,
+          transparent 60%
+        );
+        opacity: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 20px;
+        transition: var(--transition);
+      }
+      .gallery-item:hover img {
+        transform: scale(1.12);
+      }
+      .gallery-item:hover .gallery-overlay {
+        opacity: 1;
+      }
+      .gallery-overlay span {
+        color: var(--gold-light);
+        font-family: var(--font-serif);
+        font-size: 0.95rem;
+        font-weight: 600;
+      }
+
+      /* Testimonials Section */
+      .testimonials-section {
+        background-color: var(--cream-bg);
+        color: var(--text-dark);
+        padding: 85px 5%;
+        position: relative;
+      }
+      .testimonials-grid {
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+      }
+      .testimonial-card {
+        background: #ffffff;
+        border: 1px solid rgba(212, 163, 89, 0.3);
+        border-radius: 16px;
+        padding: 28px 24px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.04);
+        display: flex;
+        gap: 16px;
+        align-items: flex-start;
+        transition: var(--transition);
+      }
+      .testimonial-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+        border-color: var(--gold-primary);
+      }
+      .client-avatar {
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 2px solid var(--gold-primary);
+        flex-shrink: 0;
+      }
+      .testimonial-body {
+        font-size: 0.88rem;
+      }
+      .quote-icon {
+        color: var(--gold-primary);
+        font-size: 1.1rem;
+        margin-bottom: 5px;
+      }
+      .client-text {
+        font-style: italic;
+        color: #584547;
+        line-height: 1.5;
+        margin-bottom: 12px;
+      }
+      .client-name {
+        font-family: var(--font-serif);
+        font-weight: 700;
+        color: var(--maroon-dark);
+        font-size: 0.95rem;
+      }
+      .client-role {
+        font-size: 0.78rem;
+        color: var(--text-muted);
+      }
+
+      /* Booking & Interactive WhatsApp Form Banner */
+      .booking-section {
+        background: linear-gradient(135deg, #1f0609, #350c13);
+        border-top: 2px solid rgba(212, 163, 89, 0.3);
+        padding: 60px 5%;
+        position: relative;
+      }
+      .booking-card-wrapper {
+        max-width: 1200px;
+        margin: auto;
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(212, 163, 89, 0.3);
+        border-radius: 20px;
+        padding: 35px 40px;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 40px;
+        align-items: center;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+      }
+      .booking-header h3 {
+        font-family: var(--font-serif);
+        font-size: 1.8rem;
+        color: var(--gold-light);
+        margin-bottom: 6px;
+      }
+      .booking-header p {
+        font-size: 0.9rem;
+        color: #cbbaa9;
+        margin-bottom: 22px;
+      }
+      .booking-form {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 15px;
+      }
+      .input-group {
+        position: relative;
+      }
+      .input-group label {
+        display: block;
+        font-size: 0.75rem;
+        letter-spacing: 1px;
+        color: var(--gold-light);
+        text-transform: uppercase;
+        margin-bottom: 5px;
+      }
+      .input-group input,
+      .input-group select {
+        width: 100%;
+        background: rgba(255, 255, 255, 0.08);
+        border: 1px solid rgba(212, 163, 89, 0.4);
+        color: #ffffff;
+        padding: 11px 14px;
+        border-radius: 8px;
+        font-family: var(--font-sans);
+        font-size: 0.9rem;
+        outline: none;
+        transition: var(--transition);
+      }
+      .input-group input:focus,
+      .input-group select:focus {
+        border-color: var(--gold-light);
+        background: rgba(255, 255, 255, 0.15);
+      }
+      .booking-btn-wrap {
+        grid-column: span 3;
+        margin-top: 10px;
+      }
+      .btn-submit-wa {
+        width: 100%;
+        background: linear-gradient(135deg, #25d366, #128c7e);
+        color: white;
+        border: none;
+        padding: 14px;
+        border-radius: 8px;
+        font-size: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        transition: var(--transition);
+        box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+      }
+      .btn-submit-wa:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 25px rgba(37, 211, 102, 0.45);
+        background: linear-gradient(135deg, #2ae06d, #149a8b);
+      }
+
+      .booking-side-quote {
+        text-align: center;
+        border-left: 1px solid rgba(212, 163, 89, 0.3);
+        padding-left: 30px;
+      }
+      .booking-side-quote h4 {
+        font-family: var(--font-serif);
+        font-size: 1.6rem;
+        color: var(--gold-light);
+        line-height: 1.3;
+        margin-bottom: 10px;
+      }
+      .booking-side-quote p {
+        font-family: var(--font-script);
+        font-size: 2.2rem;
+        color: #fff;
+      }
+
+      /* Footer */
+      footer {
+        background-color: #170407;
+        padding: 60px 5% 25px;
+        border-top: 1px solid rgba(212, 163, 89, 0.2);
+      }
+      .footer-content {
+        max-width: 1200px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 25px;
+      }
+      .footer-phones {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+        justify-content: center;
+        margin: 10px 0;
+      }
+      .footer-phone-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        background: rgba(212, 163, 89, 0.1);
+        border: 1px solid rgba(212, 163, 89, 0.3);
+        padding: 10px 20px;
+        border-radius: 30px;
+        color: var(--gold-light);
+        font-size: 1rem;
+        transition: var(--transition);
+      }
+      .footer-phone-badge:hover {
+        background: var(--gold-primary);
+        color: #2b0b10;
+        transform: translateY(-2px);
+      }
+      .social-links {
+        display: flex;
+        gap: 16px;
+        margin: 10px 0;
+      }
+      .social-btn {
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(212, 163, 89, 0.3);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--gold-light);
+        font-size: 1.2rem;
+        transition: var(--transition);
+      }
+      .social-btn:hover {
+        background: var(--gold-primary);
+        color: #1a0408;
+        transform: scale(1.1);
+      }
+      .footer-bottom {
+        width: 100%;
+        max-width: 1200px;
+        margin-top: 30px;
+        padding-top: 20px;
+        border-top: 1px solid rgba(212, 163, 89, 0.15);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 0.8rem;
+        color: #9c8a87;
+      }
+
+      /* Floating WhatsApp Button */
+      .floating-wa {
+        position: fixed;
+        bottom: 25px;
+        right: 25px;
+        background-color: #25d366;
+        color: white;
+        width: 58px;
+        height: 58px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.9rem;
+        box-shadow: 0 5px 25px rgba(37, 211, 102, 0.5);
+        z-index: 1000;
+        transition: var(--transition);
+      }
+      .floating-wa:hover {
+        transform: scale(1.1) rotate(5deg);
+        box-shadow: 0 8px 30px rgba(37, 211, 102, 0.7);
+      }
+
+      /* Responsive Queries */
+      @media (max-width: 1100px) {
+        .services-grid {
+          grid-template-columns: repeat(3, 1fr);
+        }
+        .why-us-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        .gallery-grid {
+          grid-template-columns: repeat(3, 1fr);
+        }
+      }
+
+      @media (max-width: 850px) {
+        .top-banner {
+          flex-direction: column;
+          gap: 5px;
+          text-align: center;
+        }
+        .mobile-toggle {
+          display: block;
+        }
+        nav ul {
+          position: absolute;
+          top: 100%;
+          left: 0;
+          width: 100%;
+          background: #2b0b10;
+          flex-direction: column;
+          padding: 25px 0;
+          gap: 18px;
+          border-bottom: 2px solid var(--gold-primary);
+          display: none;
+        }
+        nav ul.active {
+          display: flex;
+        }
+        .btn-book-nav {
+          display: none;
+        }
+        .hero {
+          background:
+            radial-gradient(
+              circle at 50% 30%,
+              rgba(43, 11, 16, 0.85) 0%,
+              rgba(20, 5, 8, 0.98) 100%
+            ),
+            url("photo/img1.jpeg") center/cover no-repeat;
+          min-height: auto;
+          padding: 60px 20px;
+          text-align: center;
+        }
+        .hero-tagline {
+          justify-content: center;
+        }
+        .hero-title {
+          font-size: 2.6rem;
+        }
+        .hero-title-script {
+          font-size: 3.6rem;
+        }
+        .hero-actions {
+          justify-content: center;
+        }
+        .why-us-container,
+        .destination-container,
+        .booking-card-wrapper {
+          grid-template-columns: 1fr;
+          gap: 35px;
+        }
+        .why-us-grid {
+          border-left: none;
+          padding-left: 0;
+          border-top: 1px solid rgba(212, 163, 89, 0.25);
+          padding-top: 30px;
+        }
+        .services-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        .testimonials-grid {
+          grid-template-columns: 1fr;
+        }
+        .gallery-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        .booking-form {
+          grid-template-columns: 1fr;
+        }
+        .booking-btn-wrap {
+          grid-column: span 1;
+        }
+        .booking-side-quote {
+          border-left: none;
+          border-top: 1px solid rgba(212, 163, 89, 0.3);
+          padding-left: 0;
+          padding-top: 25px;
+        }
+        .footer-bottom {
+          flex-direction: column;
+          gap: 10px;
+          text-align: center;
+        }
+      }
+
+      @media (max-width: 520px) {
+        .services-grid {
+          grid-template-columns: 1fr;
+        }
+        .gallery-grid {
+          grid-template-columns: 1fr;
+        }
+        .hero-title {
+          font-size: 2.1rem;
+        }
+        .hero-title-script {
+          font-size: 3.1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Top Announcement Bar -->
+    <div class="top-banner">
+      <div>
+        <i class="fa-solid fa-location-dot" style="margin-right: 6px"></i>
+        Available Pan-India & Worldwide Destination Weddings
+      </div>
+      <div class="top-banner-phones">
+        <span><i class="fa-solid fa-phone"></i> Direct Booking:</span>
+        <a href="tel:+917508462053">+91 75084 62053</a>
+        <a href="tel:+917508465231">+91 75084 65231</a>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+      <div class="nav-container">
+        <div class="logo-container">
+          <a href="#home" class="logo-main">Anil</a>
+          <span class="logo-sub">Bridal Mehendi Artist</span>
+        </div>
+
+        <nav>
+          <ul id="navMenu">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#destination">Destination</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <a
+          href="https://wa.me/917508462053?text=Hello%20Anil%20Ji,%20I%20would%20like%20to%20book%20a%20Bridal%20Mehendi%20session."
+          target="_blank"
+          class="btn-book-nav"
+        >
+          <i class="fa-brands fa-whatsapp"></i> Book Now
+        </a>
+
+        <div class="mobile-toggle" id="mobileToggle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <div class="hero-tagline">Traditional • Bridal • Destination</div>
+        <h1 class="hero-title">
+          Bridal Mehendi
+          <span class="hero-title-script">Beyond Borders</span>
+        </h1>
+        <p class="hero-desc">
+          Bringing the sacred art of mehendi to your most cherished moments,
+          wherever you are in the world. I personally travel to your destination
+          to make your wedding celebrations truly regal and timeless.
+        </p>
+        <div class="hero-actions">
+          <a href="#book" class="btn-gold">
+            <i class="fa-brands fa-whatsapp"></i> Book Your Event
+          </a>
+          <a href="#gallery" class="btn-outline">
+            <i class="fa-regular fa-images"></i> View Gallery
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+      <div class="section-header">
+        <span class="section-subtitle">Our Services</span>
+        <h2 class="section-title">Beautiful Designs For Every Occasion</h2>
+        <div class="divider-motif"><span></span>❖<span></span></div>
+      </div>
+
+      <div class="services-grid">
+        <!-- 1. Bridal Mehendi -->
+        <div class="service-card">
+          <div class="service-img-wrap">
+            <img src="photo/img5.png" alt="Bridal Mehendi" />
+          </div>
+          <div class="service-body">
+            <h3 class="service-name">Bridal Mehendi</h3>
+            <p class="service-desc">
+              Traditional & Modern intricate Bridal full hands & feet designs.
+            </p>
+          </div>
+        </div>
+
+        <!-- 2. Engagement Mehendi -->
+        <div class="service-card">
+          <div class="service-img-wrap">
+            <img src="photo/img2.jpeg" alt="Engagement Mehendi" />
+          </div>
+          <div class="service-body">
+            <h3 class="service-name">Engagement Mehendi</h3>
+            <p class="service-desc">
+              Elegant, stylish Arabic & contemporary Indo-western concepts.
+            </p>
+          </div>
+        </div>
+
+        <!-- 3. Family Mehendi -->
+        <div class="service-card">
+          <div class="service-img-wrap">
+            <img src="photo/family.png" alt="Family Mehendi" />
+          </div>
+          <div class="service-body">
+            <h3 class="service-name">Family Mehendi</h3>
+            <p class="service-desc">
+              Special personalized packages designed for close family &
+              relatives.
+            </p>
+          </div>
+        </div>
+
+        <!-- 4. Guest Mehendi -->
+        <div class="service-card">
+          <div class="service-img-wrap">
+            <img src="photo/guest.png" alt="Guest Mehendi" />
+          </div>
+          <div class="service-body">
+            <h3 class="service-name">Guest Mehendi</h3>
+            <p class="service-desc">
+              Swift, aesthetic & elegant patterns for welcoming all guests.
+            </p>
+          </div>
+        </div>
+
+        <!-- 5. Custom Designs -->
+        <div class="service-card">
+          <div class="service-img-wrap">
+            <img src="photo/custom.png" alt="Custom Designs" />
+          </div>
+          <div class="service-body">
+            <h3 class="service-name">Custom Designs</h3>
+            <p class="service-desc">
+              Story-telling portraits, hashtags, motifs & personalized love
+              stories.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Section -->
+    <section id="about" class="why-us-section">
+      <div class="why-us-container">
+        <div class="why-us-left">
+          <h2>Why Choose <br /><span>Anil Bridal Mehendi Artist?</span></h2>
+          <p>
+            More than just mehendi, it's an experience of royal heritage, deep
+            emotional value, and uncompromised precision crafted with 100%
+            natural organic cones.
+          </p>
+          <a
+            href="https://www.instagram.com/anil_bridalmehendiartist/?hl=en"
+            target="_blank"
+            class="btn-gold"
+            style="padding: 10px 24px; font-size: 0.9rem"
+          >
+            <i class="fa-brands fa-instagram"></i> Follow on Instagram
+          </a>
+        </div>
+
+        <div class="why-us-grid">
+          <div class="why-feature">
+            <div class="why-feature-icon">
+              <i class="fa-solid fa-plane-departure"></i>
+            </div>
+            <h4>Personally Travel</h4>
+            <p>To your destination across India & internationally.</p>
+          </div>
+
+          <div class="why-feature">
+            <div class="why-feature-icon">
+              <i class="fa-solid fa-gem"></i>
+            </div>
+            <h4>Bridal Specialist</h4>
+            <p>Exquisite blend of traditional Rajasthani & modern figures.</p>
+          </div>
+
+          <div class="why-feature">
+            <div class="why-feature-icon">
+              <i class="fa-solid fa-shield-heart"></i>
+            </div>
+            <h4>Hygienic & Safe</h4>
+            <p>100% Natural, chemical-free henna guaranteed deep stain.</p>
+          </div>
+
+          <div class="why-feature">
+            <div class="why-feature-icon">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+            <h4>Client Satisfaction</h4>
+            <p>My utmost priority is delivering perfection for the bride.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Destination Services Section -->
+    <section id="destination" class="destination-section">
+      <div class="destination-container">
+        <div>
+          <span class="dest-title-script">Destination</span>
+          <h2 class="dest-title">Mehendi Services</h2>
+          <p class="dest-desc">
+            From intimate palace getaways in Udaipur & Jaipur to grand exotic
+            destination weddings in Goa, Dubai, and beyond—I travel with my
+            dedicated team to your dream venue so you get unforgettable mehendi
+            artistry without boundary limits.
+          </p>
+
+          <ul class="dest-features-list">
+            <li>
+              <i class="fa-solid fa-champagne-glasses"></i> Royal Weddings
+            </li>
+            <li><i class="fa-solid fa-hotel"></i> Destination Weddings</li>
+            <li>
+              <i class="fa-solid fa-umbrella-beach"></i> Luxury Resorts & Hotels
+            </li>
+            <li><i class="fa-solid fa-van-shuttle"></i> Outstation Events</li>
+            <li><i class="fa-solid fa-passport"></i> Custom Travel Plans</li>
+            <li>
+              <i class="fa-solid fa-calendar-check"></i> Complete Team Support
+            </li>
+          </ul>
+
+          <a
+            href="https://wa.me/917508462053?text=Hi%20Anil%20Ji,%20I%20want%20to%20plan%20Destination%20Mehendi%20services%20for%20my%20wedding."
+            target="_blank"
+            class="btn-gold"
+            style="
+              background: linear-gradient(135deg, #3c0f16, #24070c);
+              color: #f5dfa8;
+            "
+          >
+            Plan Your Destination Event <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="dest-visual-wrap">
+          <img
+            class="dest-main-img"
+            src="https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=800&q=80"
+            alt="Destination Palace Wedding"
+          />
+          <img
+            class="dest-sub-img"
+            src="photo/review3.png"
+            alt="Mehendi Bride"
+          />
+          <div class="dest-note">Your Destination, My Art ❤️</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+      <div class="section-header">
+        <span class="section-subtitle">Our Gallery</span>
+        <h2 class="section-title" style="color: #ffffff">
+          A Glimpse Of Royal Artistry
+        </h2>
+        <p class="section-tagline" style="color: #d1b8ab">
+          Explore handcrafted bridal masterpieces loved by hundreds of brides
+        </p>
+        <div class="divider-motif"><span></span>❖<span></span></div>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="photo/img1.jpeg" />
+          <div class="gallery-overlay">
+            <span>Intricate Bridal Motif</span>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="photo/i.png" />
+          <div class="gallery-overlay">
+            <span>Dulha Dulhan Figures</span>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="photo/img10.png" alt="Backhand Mehendi" />
+          <div class="gallery-overlay">
+            <span>Backhand Jaali & Lotus</span>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="photo/img9.png" alt="Deep Red Stain" />
+          <div class="gallery-overlay">
+            <span>Rich Organic Dark Stain</span>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="photo/im.png" alt="Bridal Feet Mehendi" />
+          <div class="gallery-overlay">
+            <span>Traditional Feet Work</span>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-top: 30px">
+        <a
+          href="https://www.instagram.com/anil_bridalmehendiartist/?hl=en"
+          target="_blank"
+          class="btn-outline"
+        >
+          <i class="fa-brands fa-instagram"></i> View More Photos On Instagram
+        </a>
+      </div>
+    </section>
+
+    <!-- Happy Clients Testimonials -->
+    <section id="testimonials" class="testimonials-section">
+      <div class="section-header">
+        <span class="section-subtitle">Happy Clients</span>
+        <h2 class="section-title">Real Moments, Real Happiness</h2>
+        <div class="divider-motif"><span></span>❖<span></span></div>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <img
+            class="client-avatar"
+            src="photo/review1.png"
+            alt="Priya Sharma"
+          />
+          <div class="testimonial-body">
+            <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+            <p class="client-text">
+              "Anil ji's work is simply magical! He travelled to Udaipur for our
+              destination wedding and made my bridal mehendi so breathtaking.
+              The portraits were identical to us!"
+            </p>
+            <div class="client-name">Priya Sharma</div>
+            <div class="client-role">Destination Bride (Udaipur)</div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <img
+            class="client-avatar"
+            src="photo/review2.png"
+            alt="Ritika Mehta"
+          />
+          <div class="testimonial-body">
+            <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+            <p class="client-text">
+              "The designs were beyond my expectations. Extremely professional,
+              humble, patient, and neat! The colour stained dark mahogany
+              naturally. Highly recommended!"
+            </p>
+            <div class="client-name">Ritika Mehta</div>
+            <div class="client-role">Bridal Client</div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <img class="client-avatar" src="photo/review3.png" alt="Neha Singh" />
+          <div class="testimonial-body">
+            <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+            <p class="client-text">
+              "Best mehendi artist I have ever seen. His fine lines, speed, and
+              dedication are unparalleled. Everyone at our wedding ceremony kept
+              complimenting my hands!"
+            </p>
+            <div class="client-name">Neha Singh</div>
+            <div class="client-role">Celebrity Bride</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive WhatsApp Booking Section -->
+    <section id="book" class="booking-section">
+      <div class="booking-card-wrapper">
+        <div>
+          <div class="booking-header">
+            <h3>Book Your Special Event</h3>
+            <p>
+              Fill in your details below and send a direct inquiry to Anil ji
+              via WhatsApp.
+            </p>
+          </div>
+
+          <form
+            class="booking-form"
+            id="bookingForm"
+            onsubmit="handleBooking(event)"
+          >
+            <div class="input-group">
+              <label for="clientName"
+                ><i class="fa-regular fa-user"></i> Your Name</label
+              >
+              <input
+                type="text"
+                id="clientName"
+                placeholder="e.g. Ananya Roy"
+                required
+              />
+            </div>
+
+            <div class="input-group">
+              <label for="eventDate"
+                ><i class="fa-regular fa-calendar"></i> Event Date</label
+              >
+              <input type="date" id="eventDate" required />
+            </div>
+
+            <div class="input-group">
+              <label for="location"
+                ><i class="fa-solid fa-map-pin"></i> City / Venue</label
+              >
+              <input
+                type="text"
+                id="location"
+                placeholder="e.g. Jaipur / Delhi"
+                required
+              />
+            </div>
+
+            <div class="booking-btn-wrap">
+              <button type="submit" class="btn-submit-wa">
+                <i class="fa-brands fa-whatsapp" style="font-size: 1.25rem"></i>
+                Send Instant WhatsApp Inquiry
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <div class="booking-side-quote">
+          <h4>Beautiful Mehendi</h4>
+          <p>for Beautiful Moments</p>
+          <div
+            style="
+              color: var(--gold-primary);
+              font-size: 1.3rem;
+              margin-top: 10px;
+            "
+          >
+            ♥
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+      <div class="footer-content">
+        <div class="logo-container">
+          <span class="logo-main" style="font-size: 3rem">Anil</span>
+          <span class="logo-sub" style="font-size: 0.8rem; letter-spacing: 4px"
+            >Bridal Mehendi Artist</span
+          >
+        </div>
+
+        <p style="color: #cfbcab; max-width: 500px; font-size: 0.95rem">
+          Specializing in Bridal, Figurative, Arabic, and Destination Wedding
+          Mehendi Art across the globe.
+        </p>
+
+        <!-- Direct Call Links with your Phone Numbers -->
+        <div class="footer-phones">
+          <a href="tel:+917508462053" class="footer-phone-badge">
+            <i class="fa-solid fa-phone"></i> +91 75084 62053
+          </a>
+          <a href="tel:+917508465231" class="footer-phone-badge">
+            <i class="fa-solid fa-phone"></i> +91 75084 65231
+          </a>
+        </div>
+
+        <!-- Social Links including provided Instagram -->
+        <div class="social-links">
+          <a
+            href="https://www.instagram.com/anil_bridalmehendiartist/?hl=en"
+            target="_blank"
+            class="social-btn"
+            title="Follow on Instagram"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a
+            href="https://wa.me/917508462053"
+            target="_blank"
+            class="social-btn"
+            title="Chat on WhatsApp"
+          >
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+          <a
+            href="https://www.facebook.com/profile.php?id=100011493998987"
+            target="_blank"
+            class="social-btn"
+            title="Facebook"
+          >
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a
+            href="https://www.youtube.com/@AnilBridalMehandiArtist"
+            target="_blank"
+            class="social-btn"
+            title="YouTube"
+          >
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 Anil Bridal Mehendi Artist. All rights reserved.</div>
+        <div style="letter-spacing: 1px">
+          Art • Tradition • Your Destination
+        </div>
+      </div>
+    </footer>
+
+    <!-- Floating Direct WhatsApp Button -->
+    <a
+      href="https://wa.me/917508462053?text=Hi%20Anil%20Ji,%20I%20am%20interested%20in%20booking%20you%20for%20a%20bridal%20mehendi."
+      class="floating-wa"
+      target="_blank"
+      title="Chat on WhatsApp"
+    >
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script>
+      // Mobile navigation toggle
+      const mobileToggle = document.getElementById("mobileToggle");
+      const navMenu = document.getElementById("navMenu");
+
+      mobileToggle.addEventListener("click", () => {
+        navMenu.classList.toggle("active");
+      });
+
+      // Close menu on link click
+      document.querySelectorAll("#navMenu a").forEach((link) => {
+        link.addEventListener("click", () => {
+          navMenu.classList.remove("active");
+        });
+      });
+
+      // Interactive WhatsApp inquiry generator
+      function handleBooking(event) {
+        event.preventDefault();
+        const name = document.getElementById("clientName").value.trim();
+        const date = document.getElementById("eventDate").value;
+        const location = document.getElementById("location").value.trim();
+
+        const message =
+          `*Bridal Mehendi Inquiry for Anil Ji*%0A` +
+          `-----------------------------------%0A` +
+          `*Name:* ${encodeURIComponent(name)}%0A` +
+          `*Event Date:* ${encodeURIComponent(date)}%0A` +
+          `*Location / Destination:* ${encodeURIComponent(location)}%0A` +
+          `-----------------------------------%0A` +
+          `Please let me know your availability and package details.`;
+
+        const whatsappURL = `https://wa.me/917508462053?text=${message}`;
+        window.open(whatsappURL, "_blank");
+      }
+    </script>
+  </body>
+</html>
